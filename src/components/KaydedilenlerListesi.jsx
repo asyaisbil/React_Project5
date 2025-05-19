@@ -16,5 +16,5 @@ export default function KaydedilenlerListesi(props) {
        <div className="home-button">Anasayfa</div>
      </Link>
    </div>
- );
+ ); 
 }
