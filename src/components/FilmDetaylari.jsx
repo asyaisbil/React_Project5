@@ -1,6 +1,8 @@
+
 export default function FilmDetayları(props) {
   const { title, director, metascore, id } = props.movie;
-
+ 
+ 
   return (
     <Link to={`/filmler/${id}`}>
       <div className="movie-card">
@@ -15,4 +17,5 @@ export default function FilmDetayları(props) {
       </div>
     </Link>
   );
-}
+ }
+ 
